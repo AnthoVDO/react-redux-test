@@ -12,11 +12,17 @@ import { applyMiddleware, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import rootReducer from "./reducers" //Here, I only point the folder and javascript will pick automaticly index.js
-
+import {getPosts} from "./actions/post.action"
+import { getUser } from "./actions/user.action";
 const store = createStore(
     rootReducer,
     composeWithDevTools(applyMiddleware(thunk)) //used to use redux dev tool. Remove it while we have finished and that we want to put the site on air
 )
+
+store.dispatch(getPosts());
+store.dispatch(getUser());
+
+
 
 ReactDOM.render(
 <Provider store={store}>
