@@ -20,6 +20,34 @@
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
       "likes": 107,
       "id": "3"
+    },
+    {
+      "title": "test 01",
+      "content": "test 01",
+      "author": "user42",
+      "likes": 0,
+      "id": "wZ8tx0w"
+    },
+    {
+      "title": "test 02",
+      "content": "test 02",
+      "author": "user42",
+      "likes": 0,
+      "id": "cej6XoC"
+    },
+    {
+      "title": "test 03",
+      "content": "test 03",
+      "author": "user42",
+      "likes": 0,
+      "id": "HTnLrw9"
+    },
+    {
+      "title": "test test test",
+      "content": "test test test",
+      "author": "user42",
+      "likes": 0,
+      "id": "_ROwKpv"
     }
   ],
   "users": [

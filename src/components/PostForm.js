@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {useSelector, useDispatch, } from "react-redux";
-import { addPost} from "../actions/post.action";
+import { addPost, getPosts} from "../actions/post.action";
 
 const PostForm = () => {
 
@@ -9,7 +9,7 @@ const PostForm = () => {
   const user = useSelector((state)=> state.userReducer);
   const dispatch = useDispatch();
 
-  const handleForm = (element) => {
+  const handleForm = async (element) => {
       element.preventDefault();
 
       if(title && content){
@@ -21,7 +21,10 @@ const PostForm = () => {
 
         }
 
-        dispatch(addPost(data));
+        await dispatch(addPost(data));
+        setTitle('');
+        setContent('');
+        dispatch(getPosts()); // Used because this is the database(backend) that creat the id, so we call it to get the id
       }
 
   }
