@@ -22,39 +22,23 @@
       "id": "3"
     },
     {
-      "title": "test 01",
-      "content": "test 01",
+      "title": "sqdfqsdf",
       "author": "user42",
-      "likes": 0,
-      "id": "wZ8tx0w"
-    },
-    {
-      "title": "test 02",
-      "content": "test 02",
-      "author": "user42",
-      "likes": 0,
-      "id": "cej6XoC"
-    },
-    {
-      "title": "test 03",
-      "content": "test 03",
-      "author": "user42",
-      "likes": 0,
-      "id": "HTnLrw9"
-    },
-    {
-      "title": "test test test",
-      "content": "test test test",
-      "author": "user42",
-      "likes": 0,
-      "id": "_ROwKpv"
+      "content": "godddddd",
+      "likes": 12,
+      "id": "IsXinvs"
     }
   ],
   "users": [
     {
       "pseudo": "user42",
-      "likes": 21,
+      "likes": 30,
       "id": 1
+    },
+    {
+      "pseudo": "anonyme",
+      "likes": 54,
+      "id": 2
     }
   ]
 }
